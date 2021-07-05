@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+p#show {
+  letter-spacing: 0.15rem;
+}
