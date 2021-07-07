@@ -22,5 +22,5 @@ const makeObjectTree = (objectArray, value) => {
   });
   return objectTree;
 };
-show.textContent = JSON.stringify(makeObjectTree(categories, null), null, 2);
+showElement.textContent = JSON.stringify(makeObjectTree(categories, null), null, 2);
 console.log(JSON.stringify(makeObjectTree(categories, null), null, 2));
